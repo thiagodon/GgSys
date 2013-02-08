@@ -11,7 +11,7 @@ $smarty = new Smarty();
 
 
 $smarty->template_dir = 'views/templates/';
-$smarty->compile_dir = 'views/templates_c/	';
+$smarty->compile_dir = 'views/templates_c/';
 
 $xajax->processRequest();
 

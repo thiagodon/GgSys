@@ -31,8 +31,9 @@ class login extends xajaxResponse{
 		$this->script($s);
 	}
 	public function logar(){
+		//$this->alert(print_r($this->p1,1));
 		try {
-			$sql="SELECT id, nome, email FROM usuarios WHERE  login=? and senha=? and ativo=? and del=?;";
+			$sql="SELECT id, login, nome, email FROM usuarios WHERE  login=? and senha=? and ativo=? and del=?;";
 			$sql = $this->con->Prepare($sql);
 			if (!$rs=$this->con->Execute($sql, array($this->p1['login'], md5($this->p1['senha']), 's', 'n') )){
 				throw new Exception("Login Inválido. Tente novamente");
