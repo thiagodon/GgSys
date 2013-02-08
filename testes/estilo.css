@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; color: #000; font: 10px verdana;}
+img { border: none; }
+body { text-decoration: none; background: white; text-align:center; }
+a:link, a:visited, a:hover, a:active { color: #000; text-decoration: none; }
+#geral { width: 760px; text-align:left; margin: 0 auto; border: 1px solid black;}
+#topo { width: 758px; height: 120px; border-bottom: 1px solid black;}
+#centro { margin-left: 122px; padding: 5px; }
+#coluna1 { width: 120px; float: left; border-right: 1px solid black;}
+#menu li { display: block; list-style-type: none; padding: 4px; }
+#rodape { clear: both; text-align: center; border-top: 1px solid black;}

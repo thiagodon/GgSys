@@ -1,0 +1,186 @@
+body{
+	background: url(../imagens/bg.png) 0 0 no-repeat;
+	margin:20px;
+}
+.divLogin{
+	margin-left:300px;
+	padding: 5px;
+	width: 210px;
+	height: 114px;
+	border: 2px #5B548E solid;
+}
+.divLogin input {
+	font: 12px arial, helvetica, sans-aerif;	
+	color: #5B548E;
+}
+
+.legendLogin{
+	color:white;
+	text-align: center;
+	font: bold 14px arial, helvetica, sans-aerif;	
+	margin-top: -5px;
+	margin-left: -5px;
+	margin-bottom: 5px;
+	width: 222px;
+	height: 20px;
+	background-color: #5B548E;
+}
+
+#divLogoTopo {
+	margin: 10px;
+	float:left;
+}
+.topoSeparacao{
+	float: left;
+	margin-bottom:0;
+	margin-top: 0px;
+	background-color: #5B548E;
+	height: 32px;
+}
+
+.topoSeparacao a{
+	margin: 10px;
+	float: right;
+	color:white;
+	font: bold 10px arial, helvetica, sans-aerif;	
+	text-decoration: none;
+	text-align:right;text
+}
+.cTopo {
+	height:133px;
+	background: url(../imagens/topo.jpg) 0 0 repeat;
+}
+#divSairGeral {
+	float: right;
+}
+
+.divBtnForm {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.divContainerT{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.divContainerF{
+	margin-top: 60px;
+	margin-left:10px;
+}
+
+.divContainerT fieldset{
+	color:#5B548E;
+	font: 12px arial, helvetica, sans-aerif;	
+	width: 800px;
+	border: #5B548E 2px solid;
+}
+
+#divMenu {
+	margin-top: -10px;
+	float: left;
+	height:100%;
+}
+#divCentro {
+	float: left;
+	height:100%;
+	margin:20px;
+}
+
+form fieldset{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:100%;
+}
+form {
+	color:#5B548E;
+	width: 600px;
+	font: 13px arial,sans-serif;
+}
+.lbForm {
+	text-align: right;
+}
+form input {
+}
+
+div#menu{width: 184px;}
+
+div#menubody {background-color:#5B548E;}
+
+ul#menulist {width:116px; list-style-type:none;}
+
+ul#menulist a {width:132px; font:bold 10px Verdana, Arial, sans-serif; color:#ffffff; text-decoration:none; padding:15px 0 15px 0; display:block !important; display:inline-block;}
+
+ul#menulist a:hover {background:white left repeat-y; border:#5B548E 5px solid; color: #5B548E; font:bold 14px Verdana, Arial, sans-serif;}
+
+.btnL {
+	float: left;
+	width: 16px;
+	height: 32px;
+	background:url(../imagens/btnB.png) no-repeat 0 -33px transparent; 
+}
+.btnR {  
+	float: left;
+	width: 16px;
+	height: 31px;
+	background:url(../imagens/btnB.png) no-repeat 0 -1px transparent; 
+}
+.btnC {  
+	float: left;
+	background:url(../imagens/btn.png) repeat-x 0 0 transparent; 
+	height:32px;	
+	display:block;
+}
+.btnC a {  
+	color:#5B548E;
+	font: bold 12px arial, helvetica, sans-aerif;	
+	text-decoration: none;
+	text-align:center;	
+}
+
+.divTituloModulo{
+	padding: 7px;
+	background-color: #5B548E;
+	width: 900px;
+}
+
+.divTituloModulo span{
+	color: white;
+	font: bold 16px arial, helvetica, sans-aerif;	
+}
+
+.divTabela{
+	overflow: auto;
+	width: 800px;
+}
+
+
+.tableLista {
+	overflow: hidden;
+	padding: 3px 0px 1px;	
+	vertical-align: middle;
+	white-space: nowrap; 
+}
+.tableLista th{
+	background-color: #5B548E;
+	color:white;
+	text-align: center;
+	font: bold 14px arial, helvetica, sans-aerif;	
+}
+
+.tableLista tr{
+	color:#5B548E;
+	background-color: #FFFFF0;
+	text-align: left;
+	font: bold 14px arial, helvetica, sans-aerif;	
+}
+
+.tableLista .par{
+	background-color: #D3D3D3;
+}
+.tableLista tr:hover{
+	background-color: #EEE8AA;
+}
